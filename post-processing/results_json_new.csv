@@ -1,0 +1,534 @@
+"[5, 0, 0]",20.0,"{'submitted': 1585441811.8498557, 'started': 1585441811.852028, 'finished': 1585441862.9922452}",,"Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/HpBandSter/hpbandster/core/worker.py"", line 206, in start_computation
+    result = {'result': self.compute(*args, config_id=id, **kwargs),
+  File ""/home/ubuntu/ksc_calibration/BEAM_Optimizer/BeamWorker.py"", line 130, in compute
+    df = pd.read_csv(latest_subdir+""/referenceRealizedModeChoice.csv"").iloc[[0, -1]].drop(['iterations'], axis=1)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 685, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 457, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 895, in __init__
+    self._make_engine(self.engine)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 1135, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 1917, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File ""pandas/_libs/parsers.pyx"", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File ""pandas/_libs/parsers.pyx"", line 689, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File b'/home/ubuntu/ksc_calibration/beam/output/sf-light/urbansim-10k-xml__2020-03-29_00-30-40_inn/referenceRealizedModeChoice.csv' does not exist: b'/home/ubuntu/ksc_calibration/beam/output/sf-light/urbansim-10k-xml__2020-03-29_00-30-40_inn/referenceRealizedModeChoice.csv'
+"
+"[1, 0, 0]",20.0,"{'submitted': 1585441811.6978202, 'started': 1585441811.6995533, 'finished': 1585441875.3516436}","{'loss': 131.60308056872037, 'info': 131.60308056872037}",
+"[7, 0, 0]",20.0,"{'submitted': 1585441862.997777, 'started': 1585441862.9987833, 'finished': 1585456524.6268406}","{'loss': 131.60308056872037, 'info': 131.60308056872037}",
+"[2, 0, 2]",6.666666666666666,"{'submitted': 1585441811.747624, 'started': 1585441811.7505968, 'finished': 1585460238.4395204}","{'loss': 123.00203114421126, 'info': 123.00203114421126}",
+"[4, 0, 1]",6.666666666666666,"{'submitted': 1585441811.805763, 'started': 1585441811.813592, 'finished': 1585461558.4027615}","{'loss': 54.30648779042701, 'info': 54.30648779042701}",
+"[2, 0, 1]",6.666666666666666,"{'submitted': 1585441811.7324135, 'started': 1585441811.7410812, 'finished': 1585461686.733196}","{'loss': 182.8698375084631, 'info': 182.8698375084631}",
+"[1, 0, 1]",20.0,"{'submitted': 1585441811.7119954, 'started': 1585441811.7136202, 'finished': 1585461722.4745984}",,"Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/HpBandSter/hpbandster/core/worker.py"", line 206, in start_computation
+    result = {'result': self.compute(*args, config_id=id, **kwargs),
+  File ""/home/ubuntu/ksc_calibration/BEAM_Optimizer/BeamWorker.py"", line 130, in compute
+    df = pd.read_csv(latest_subdir+""/referenceRealizedModeChoice.csv"").iloc[[0, -1]].drop(['iterations'], axis=1)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 685, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 457, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 895, in __init__
+    self._make_engine(self.engine)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 1135, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 1917, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File ""pandas/_libs/parsers.pyx"", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File ""pandas/_libs/parsers.pyx"", line 689, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File b'/home/ubuntu/ksc_calibration/beam/output/sf-light/urbansim-10k-xml__2020-03-29_06-01-34_oox/referenceRealizedModeChoice.csv' does not exist: b'/home/ubuntu/ksc_calibration/beam/output/sf-light/urbansim-10k-xml__2020-03-29_06-01-34_oox/referenceRealizedModeChoice.csv'
+"
+"[2, 0, 0]",6.666666666666666,"{'submitted': 1585441811.7186484, 'started': 1585441811.7267418, 'finished': 1585461980.5020833}","{'loss': 183.18297224102912, 'info': 183.18297224102912}",
+"[3, 0, 0]",20.0,"{'submitted': 1585441811.7629173, 'started': 1585441811.776073, 'finished': 1585462271.7176156}","{'loss': 57.72579553148274, 'info': 57.72579553148274}",
+"[0, 0, 2]",6.666666666666666,"{'submitted': 1585441811.6829858, 'started': 1585441811.6846492, 'finished': 1585462425.1143}","{'loss': 178.89218009478674, 'info': 178.89218009478674}",
+"[3, 0, 1]",20.0,"{'submitted': 1585441811.7829902, 'started': 1585441811.7850342, 'finished': 1585463114.5400717}","{'loss': 144.4955355253692, 'info': 144.4955355253692}",
+"[0, 0, 1]",6.666666666666666,"{'submitted': 1585441811.6749692, 'started': 1585441811.6770802, 'finished': 1585463389.2803633}","{'loss': 162.8208144668726, 'info': 162.8208144668726}",
+"[6, 0, 1]",6.666666666666666,"{'submitted': 1585441811.8867877, 'started': 1585441811.9069028, 'finished': 1585465032.3278935}",,"Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2130, in _get_list_axis
+    return self.obj.take(key, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/generic.py"", line 3604, in take
+    indices, axis=self._get_block_manager_axis(axis), verify=True
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/internals/managers.py"", line 1389, in take
+    indexer = maybe_convert_indices(indexer, n)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexers.py"", line 201, in maybe_convert_indices
+    raise IndexError(""indices are out-of-bounds"")
+IndexError: indices are out-of-bounds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/HpBandSter/hpbandster/core/worker.py"", line 206, in start_computation
+    result = {'result': self.compute(*args, config_id=id, **kwargs),
+  File ""/home/ubuntu/ksc_calibration/BEAM_Optimizer/BeamWorker.py"", line 138, in compute
+    df1 = pd.read_csv(latest_subdir+""/referenceRealizedModeChoice.csv"").iloc[[0, 3]].drop(['iterations'], axis=1)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 1424, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2148, in _getitem_axis
+    return self._get_list_axis(key, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2133, in _get_list_axis
+    raise IndexError(""positional indexers are out-of-bounds"")
+IndexError: positional indexers are out-of-bounds
+"
+"[0, 0, 0]",6.666666666666666,"{'submitted': 1585441811.6709802, 'started': 1585441811.672849, 'finished': 1585465213.7637327}","{'loss': 162.84614082599865, 'info': 162.84614082599865}",
+"[4, 0, 0]",6.666666666666666,"{'submitted': 1585441811.7979865, 'started': 1585441811.7999685, 'finished': 1585465926.0574105}","{'loss': 54.17529307207245, 'info': 54.17529307207245}",
+"[6, 0, 2]",6.666666666666666,"{'submitted': 1585441811.9116707, 'started': 1585441811.9132502, 'finished': 1585465968.30518}",,"Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/HpBandSter/hpbandster/core/worker.py"", line 206, in start_computation
+    result = {'result': self.compute(*args, config_id=id, **kwargs),
+  File ""/home/ubuntu/ksc_calibration/BEAM_Optimizer/BeamWorker.py"", line 130, in compute
+    df = pd.read_csv(latest_subdir+""/referenceRealizedModeChoice.csv"").iloc[[0, -1]].drop(['iterations'], axis=1)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 685, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 457, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 895, in __init__
+    self._make_engine(self.engine)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 1135, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 1917, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File ""pandas/_libs/parsers.pyx"", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File ""pandas/_libs/parsers.pyx"", line 689, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File b'/home/ubuntu/ksc_calibration/beam/output/sf-light/urbansim-10k-xml__2020-03-29_07-12-15_fry/referenceRealizedModeChoice.csv' does not exist: b'/home/ubuntu/ksc_calibration/beam/output/sf-light/urbansim-10k-xml__2020-03-29_07-12-15_fry/referenceRealizedModeChoice.csv'
+"
+"[9, 0, 1]",20.0,"{'submitted': 1585461722.4881094, 'started': 1585461722.4904556, 'finished': 1585466638.8247793}","{'loss': 62.94211238997969, 'info': 62.94211238997969}",
+"[8, 0, 1]",6.666666666666666,"{'submitted': 1585460238.4514792, 'started': 1585460238.4522736, 'finished': 1585466714.7079139}",,"Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/HpBandSter/hpbandster/core/worker.py"", line 206, in start_computation
+    result = {'result': self.compute(*args, config_id=id, **kwargs),
+  File ""/home/ubuntu/ksc_calibration/BEAM_Optimizer/BeamWorker.py"", line 130, in compute
+    df = pd.read_csv(latest_subdir+""/referenceRealizedModeChoice.csv"").iloc[[0, -1]].drop(['iterations'], axis=1)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 685, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 457, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 895, in __init__
+    self._make_engine(self.engine)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 1135, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 1917, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File ""pandas/_libs/parsers.pyx"", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File ""pandas/_libs/parsers.pyx"", line 689, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File b'/home/ubuntu/ksc_calibration/beam/output/sf-light/urbansim-10k-xml__2020-03-29_07-00-21_uoi/referenceRealizedModeChoice.csv' does not exist: b'/home/ubuntu/ksc_calibration/beam/output/sf-light/urbansim-10k-xml__2020-03-29_07-00-21_uoi/referenceRealizedModeChoice.csv'
+"
+"[6, 0, 0]",6.666666666666666,"{'submitted': 1585441811.8715365, 'started': 1585441811.8733907, 'finished': 1585469504.0132155}","{'loss': 83.15694497394841, 'info': 83.15694497394841}",
+"[9, 0, 0]",20.0,"{'submitted': 1585461686.7445362, 'started': 1585461686.7456374, 'finished': 1585469924.3355298}","{'loss': 149.7757278266757, 'info': 149.7757278266757}",
+"[5, 0, 1]",20.0,"{'submitted': 1585441811.8583355, 'started': 1585441811.8611374, 'finished': 1585470576.3228116}","{'loss': 83.96438649960493, 'info': 83.96438649960493}",
+"[12, 0, 1]",6.666666666666666,"{'submitted': 1585465968.3112438, 'started': 1585465968.311889, 'finished': 1585471939.5667727}","{'loss': 69.01421800947867, 'info': 69.01421800947867}",
+"[4, 0, 2]",6.666666666666666,"{'submitted': 1585441811.8268983, 'started': 1585441811.8373775, 'finished': 1585471946.8245006}",,"Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/HpBandSter/hpbandster/core/worker.py"", line 206, in start_computation
+    result = {'result': self.compute(*args, config_id=id, **kwargs),
+  File ""/home/ubuntu/ksc_calibration/BEAM_Optimizer/BeamWorker.py"", line 130, in compute
+    df = pd.read_csv(latest_subdir+""/referenceRealizedModeChoice.csv"").iloc[[0, -1]].drop(['iterations'], axis=1)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 685, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 457, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 895, in __init__
+    self._make_engine(self.engine)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 1135, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/io/parsers.py"", line 1917, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File ""pandas/_libs/parsers.pyx"", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File ""pandas/_libs/parsers.pyx"", line 689, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File b'/home/ubuntu/ksc_calibration/beam/output/sf-light/urbansim-10k-xml__2020-03-29_08-52-26_equ/referenceRealizedModeChoice.csv' does not exist: b'/home/ubuntu/ksc_calibration/beam/output/sf-light/urbansim-10k-xml__2020-03-29_08-52-26_equ/referenceRealizedModeChoice.csv'
+"
+"[8, 0, 0]",6.666666666666666,"{'submitted': 1585456524.6339064, 'started': 1585456524.635751, 'finished': 1585473889.1847656}","{'loss': 58.160460392687895, 'info': 58.160460392687895}",
+"[8, 0, 2]",6.666666666666666,"{'submitted': 1585461558.409605, 'started': 1585461558.410659, 'finished': 1585479075.8233259}","{'loss': 128.78300609343262, 'info': 128.78300609343262}",
+"[11, 0, 0]",20.0,"{'submitted': 1585463389.2877939, 'started': 1585463389.2889357, 'finished': 1585480256.4590287}","{'loss': 91.5726134055518, 'info': 91.5726134055518}",
+"[4, 0, 0]",20.0,"{'submitted': 1585471946.8305933, 'started': 1585471946.8313172, 'finished': 1585480887.3885586}","{'loss': 144.15199729180773, 'info': 144.15199729180773}",
+"[10, 0, 2]",6.666666666666666,"{'submitted': 1585463114.5480447, 'started': 1585463114.5487075, 'finished': 1585481081.4504256}","{'loss': 150.93060257278267, 'info': 150.93060257278267}",
+"[7, 0, 1]",20.0,"{'submitted': 1585441875.3563266, 'started': 1585441875.3572721, 'finished': 1585481826.240487}","{'loss': 165.32338603704804, 'info': 165.32338603704804}",
+"[12, 0, 2]",6.666666666666666,"{'submitted': 1585466638.8431606, 'started': 1585466638.8439429, 'finished': 1585482304.0739782}","{'loss': 127.90893703452946, 'info': 127.90893703452946}",
+"[13, 0, 1]",20.0,"{'submitted': 1585469924.355496, 'started': 1585469924.3565984, 'finished': 1585482689.8560572}","{'loss': 150.83023659372753, 'info': 150.83023659372753}",
+"[0, 0, 1]",20.0,"{'submitted': 1585465213.7683046, 'started': 1585465213.7694914, 'finished': 1585484962.017839}","{'loss': 160.48751586965722, 'info': 160.48751586965722}",
+"[14, 0, 0]",6.666666666666666,"{'submitted': 1585470576.3418238, 'started': 1585470576.3424973, 'finished': 1585485993.092104}","{'loss': 126.3601895734597, 'info': 126.3601895734597}",
+"[10, 0, 0]",6.666666666666666,"{'submitted': 1585462271.724038, 'started': 1585462271.72481, 'finished': 1585486270.519771}","{'loss': 161.9762892708951, 'info': 161.9762892708951}",
+"[2, 0, 2]",20.0,"{'submitted': 1585461980.52377, 'started': 1585461980.5254712, 'finished': 1585486351.4046235}","{'loss': 129.51844955991874, 'info': 129.51844955991874}",
+"[15, 0, 0]",20.0,"{'submitted': 1585480256.4774055, 'started': 1585480256.4783695, 'finished': 1585487527.803859}","{'loss': 48.0, 'info': 48.0}",
+"[15, 0, 1]",20.0,"{'submitted': 1585480887.3962064, 'started': 1585480887.3969948, 'finished': 1585488155.0149}","{'loss': 109.9791807718348, 'info': 109.9791807718348}",
+"[14, 0, 1]",6.666666666666666,"{'submitted': 1585471939.574544, 'started': 1585471939.5751734, 'finished': 1585488444.4741092}","{'loss': 80.92450914014896, 'info': 80.92450914014896}",
+"[10, 0, 1]",6.666666666666666,"{'submitted': 1585462425.1214447, 'started': 1585462425.1231554, 'finished': 1585490696.0022354}","{'loss': 127.75558564658093, 'info': 127.75558564658093}",
+"[16, 0, 0]",6.666666666666666,"{'submitted': 1585481081.4598124, 'started': 1585481081.4604905, 'finished': 1585492967.352517}","{'loss': 158.75592417061608, 'info': 158.75592417061608}",
+"[8, 0, 0]",20.0,"{'submitted': 1585479075.8284013, 'started': 1585479075.8290422, 'finished': 1585497254.2043624}","{'loss': 62.324306025727836, 'info': 62.324306025727836}",
+"[6, 0, 0]",20.0,"{'submitted': 1585469504.0189502, 'started': 1585469504.020018, 'finished': 1585499130.4115891}",,"Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2130, in _get_list_axis
+    return self.obj.take(key, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/generic.py"", line 3604, in take
+    indices, axis=self._get_block_manager_axis(axis), verify=True
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/internals/managers.py"", line 1389, in take
+    indexer = maybe_convert_indices(indexer, n)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexers.py"", line 201, in maybe_convert_indices
+    raise IndexError(""indices are out-of-bounds"")
+IndexError: indices are out-of-bounds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/HpBandSter/hpbandster/core/worker.py"", line 206, in start_computation
+    result = {'result': self.compute(*args, config_id=id, **kwargs),
+  File ""/home/ubuntu/ksc_calibration/BEAM_Optimizer/BeamWorker.py"", line 138, in compute
+    df1 = pd.read_csv(latest_subdir+""/referenceRealizedModeChoice.csv"").iloc[[0, 3]].drop(['iterations'], axis=1)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 1424, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2148, in _getitem_axis
+    return self._get_list_axis(key, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2133, in _get_list_axis
+    raise IndexError(""positional indexers are out-of-bounds"")
+IndexError: positional indexers are out-of-bounds
+"
+"[14, 0, 2]",6.666666666666666,"{'submitted': 1585473889.2211857, 'started': 1585473889.2224615, 'finished': 1585499992.330387}","{'loss': 91.85742496050551, 'info': 91.85742496050551}",
+"[11, 0, 1]",20.0,"{'submitted': 1585465032.3365808, 'started': 1585465032.337426, 'finished': 1585503107.2484105}","{'loss': 187.580850522027, 'info': 187.580850522027}",
+"[16, 0, 1]",6.666666666666666,"{'submitted': 1585481826.2474349, 'started': 1585481826.2480702, 'finished': 1585503215.2589004}","{'loss': 182.04891672308733, 'info': 182.04891672308733}",
+"[21, 0, 0]",20.0,"{'submitted': 1585499130.5867815, 'started': 1585499130.5891, 'finished': 1585503810.692408}","{'loss': 62.865944482058225, 'info': 62.865944482058225}",
+"[12, 0, 0]",6.666666666666666,"{'submitted': 1585465926.0699058, 'started': 1585465926.071119, 'finished': 1585503899.199587}","{'loss': 140.67571004662994, 'info': 140.67571004662994}",
+"[19, 0, 0]",20.0,"{'submitted': 1585487528.0160828, 'started': 1585487528.0166807, 'finished': 1585504685.0471406}","{'loss': 78.80568720379148, 'info': 78.80568720379148}",
+"[13, 0, 0]",20.0,"{'submitted': 1585466714.718146, 'started': 1585466714.719722, 'finished': 1585504837.811317}","{'loss': 103.9815277718934, 'info': 103.9815277718934}",
+"[18, 0, 0]",6.666666666666666,"{'submitted': 1585485993.1039739, 'started': 1585485993.1047661, 'finished': 1585504973.243259}","{'loss': 121.34478672985783, 'info': 121.34478672985783}",
+"[20, 0, 0]",6.666666666666666,"{'submitted': 1585488444.677453, 'started': 1585488444.6843855, 'finished': 1585505127.9123602}","{'loss': 83.31533513879485, 'info': 83.31533513879485}",
+"[19, 0, 1]",20.0,"{'submitted': 1585488155.3425102, 'started': 1585488155.3433962, 'finished': 1585506057.234015}","{'loss': 82.96987136086662, 'info': 82.96987136086662}",
+"[17, 0, 0]",20.0,"{'submitted': 1585482689.8675528, 'started': 1585482689.8688602, 'finished': 1585506947.4263477}","{'loss': 194.46787199728374, 'info': 194.46787199728374}",
+"[16, 0, 2]",6.666666666666666,"{'submitted': 1585482304.0841122, 'started': 1585482304.0848632, 'finished': 1585507137.1453624}","{'loss': 59.92834152126037, 'info': 59.92834152126037}",
+"[18, 0, 1]",6.666666666666666,"{'submitted': 1585486270.5428238, 'started': 1585486270.543599, 'finished': 1585508387.7595768}","{'loss': 152.1024599413225, 'info': 152.1024599413225}",
+"[22, 0, 2]",6.666666666666666,"{'submitted': 1585504685.0572338, 'started': 1585504685.0581288, 'finished': 1585510146.6393142}","{'loss': 116.56770480704131, 'info': 116.56770480704131}",
+"[24, 0, 1]",6.666666666666666,"{'submitted': 1585506057.4970806, 'started': 1585506057.4984381, 'finished': 1585510635.0634902}","{'loss': 62.823628977657414, 'info': 62.823628977657414}",
+"[23, 0, 0]",20.0,"{'submitted': 1585504838.0442894, 'started': 1585504838.0449955, 'finished': 1585510856.6989696}","{'loss': 93.62186865267432, 'info': 93.62186865267432}",
+"[18, 0, 2]",6.666666666666666,"{'submitted': 1585486351.571016, 'started': 1585486351.572008, 'finished': 1585516407.7679698}","{'loss': 109.55128639133378, 'info': 109.55128639133378}",
+"[14, 0, 1]",20.0,"{'submitted': 1585499992.3347232, 'started': 1585499992.3355687, 'finished': 1585517359.2351437}","{'loss': 80.87373053486797, 'info': 80.87373053486797}",
+"[24, 0, 2]",6.666666666666666,"{'submitted': 1585506947.7039037, 'started': 1585506947.711468, 'finished': 1585517417.0489514}","{'loss': 80.11323628977658, 'info': 80.11323628977658}",
+"[10, 0, 1]",20.0,"{'submitted': 1585490696.0104113, 'started': 1585490696.0109596, 'finished': 1585517596.046583}","{'loss': 113.76015572105621, 'info': 113.76015572105621}",
+"[26, 0, 0]",6.666666666666666,"{'submitted': 1585510635.5305552, 'started': 1585510635.5315537, 'finished': 1585518844.069196}","{'loss': 77.9905213270142, 'info': 77.9905213270142}",
+"[21, 0, 1]",20.0,"{'submitted': 1585503107.382491, 'started': 1585503107.383264, 'finished': 1585519602.5283408}","{'loss': 62.180433310765046, 'info': 62.180433310765046}",
+"[22, 0, 1]",6.666666666666666,"{'submitted': 1585503810.8714857, 'started': 1585503810.8879352, 'finished': 1585520265.0071726}","{'loss': 106.19431279620855, 'info': 106.19431279620855}",
+"[24, 0, 0]",6.666666666666666,"{'submitted': 1585505128.1374812, 'started': 1585505128.138761, 'finished': 1585520703.0195339}","{'loss': 79.9389784604968, 'info': 79.9389784604968}",
+"[12, 0, 1]",20.0,"{'submitted': 1585503899.2043445, 'started': 1585503899.20514, 'finished': 1585521214.1846821}","{'loss': 69.7335815842925, 'info': 69.7335815842925}",
+"[23, 0, 1]",20.0,"{'submitted': 1585504973.668586, 'started': 1585504973.6694632, 'finished': 1585521240.8109877}","{'loss': 62.603588354773194, 'info': 62.603588354773194}",
+"[20, 0, 2]",6.666666666666666,"{'submitted': 1585497254.2373533, 'started': 1585497254.2379522, 'finished': 1585523442.5995216}","{'loss': 81.82645269650395, 'info': 81.82645269650395}",
+"[17, 0, 1]",20.0,"{'submitted': 1585484962.025616, 'started': 1585484962.0267994, 'finished': 1585524712.3827775}","{'loss': 112.84763721127358, 'info': 112.84763721127358}",
+"[18, 0, 2]",20.0,"{'submitted': 1585516407.7747943, 'started': 1585516407.7758484, 'finished': 1585525843.3586397}","{'loss': 177.10798916723087, 'info': 177.10798916723087}",
+"[25, 0, 0]",20.0,"{'submitted': 1585508387.7833505, 'started': 1585508387.7842567, 'finished': 1585525927.3664732}","{'loss': 136.52318889641165, 'info': 136.52318889641165}",
+"[29, 0, 1]",20.0,"{'submitted': 1585521240.8204303, 'started': 1585521240.8240426, 'finished': 1585526260.7878335}","{'loss': 152.1702775897089, 'info': 152.1702775897089}",
+"[28, 0, 1]",6.666666666666666,"{'submitted': 1585519602.5380924, 'started': 1585519602.539565, 'finished': 1585528232.5396764}","{'loss': 169.47860594979943, 'info': 169.47860594979943}",
+"[25, 0, 1]",20.0,"{'submitted': 1585510146.80643, 'started': 1585510146.8070238, 'finished': 1585528824.6028001}","{'loss': 57.297562626946515, 'info': 57.297562626946515}",
+"[16, 0, 2]",20.0,"{'submitted': 1585507137.1508248, 'started': 1585507137.1523268, 'finished': 1585530054.3063273}","{'loss': 62.675362073346335, 'info': 62.675362073346335}",
+"[31, 0, 0]",20.0,"{'submitted': 1585525927.5744379, 'started': 1585525927.580052, 'finished': 1585531093.193692}","{'loss': 63.13676371022342, 'info': 63.13676371022342}",
+"[20, 0, 1]",6.666666666666666,"{'submitted': 1585492967.5515127, 'started': 1585492967.5527098, 'finished': 1585533267.5150273}","{'loss': 167.84347973545871, 'info': 167.84347973545871}",
+"[32, 0, 2]",6.666666666666666,"{'submitted': 1585530054.5693552, 'started': 1585530054.5701387, 'finished': 1585534079.7269015}","{'loss': 137.67159124581977, 'info': 137.67159124581977}",
+"[27, 0, 0]",20.0,"{'submitted': 1585517417.3530626, 'started': 1585517417.3592012, 'finished': 1585534366.2719572}","{'loss': 62.85443466486121, 'info': 62.85443466486121}",
+"[26, 0, 1]",6.666666666666666,"{'submitted': 1585510856.7080863, 'started': 1585510856.7087646, 'finished': 1585534524.5629823}","{'loss': 145.97087707416188, 'info': 145.97087707416188}",
+"[26, 0, 2]",6.666666666666666,"{'submitted': 1585517359.430448, 'started': 1585517359.4390392, 'finished': 1585534634.9954605}","{'loss': 59.94428686338428, 'info': 59.94428686338428}",
+"[27, 0, 1]",20.0,"{'submitted': 1585517596.23574, 'started': 1585517596.2369037, 'finished': 1585535013.8257284}","{'loss': 91.10378117457762, 'info': 91.10378117457762}",
+"[28, 0, 0]",6.666666666666666,"{'submitted': 1585518844.2660732, 'started': 1585518844.2678866, 'finished': 1585535887.469944}","{'loss': 66.09986459038593, 'info': 66.09986459038593}",
+"[29, 0, 0]",20.0,"{'submitted': 1585521214.4194624, 'started': 1585521214.4213686, 'finished': 1585537437.0804925}","{'loss': 63.903859174001354, 'info': 63.903859174001354}",
+"[24, 0, 1]",20.0,"{'submitted': 1585520703.0310705, 'started': 1585520703.0331194, 'finished': 1585537714.852972}","{'loss': 61.99424509140148, 'info': 61.99424509140148}",
+"[34, 0, 0]",6.666666666666666,"{'submitted': 1585534366.441246, 'started': 1585534366.441948, 'finished': 1585539316.2497888}","{'loss': 111.12830060934324, 'info': 111.12830060934324}",
+"[22, 0, 0]",6.666666666666666,"{'submitted': 1585503215.2684503, 'started': 1585503215.2692688, 'finished': 1585539524.4342332}","{'loss': 67.91509913573971, 'info': 67.91509913573971}",
+"[34, 0, 1]",6.666666666666666,"{'submitted': 1585534524.8731432, 'started': 1585534524.8776717, 'finished': 1585540771.439383}","{'loss': 63.196005416384565, 'info': 63.196005416384565}",
+"[28, 0, 2]",6.666666666666666,"{'submitted': 1585520265.0166507, 'started': 1585520265.0183923, 'finished': 1585541990.2591085}","{'loss': 79.82159783344618, 'info': 79.82159783344618}",
+"[30, 0, 1]",6.666666666666666,"{'submitted': 1585524712.3965755, 'started': 1585524712.3974802, 'finished': 1585542019.0906339}","{'loss': 45.03002837660412, 'info': 45.03002837660412}",
+"[31, 0, 1]",20.0,"{'submitted': 1585526261.0346472, 'started': 1585526261.040177, 'finished': 1585542510.4353526}","{'loss': 62.47664184157075, 'info': 62.47664184157075}",
+"[34, 0, 2]",6.666666666666666,"{'submitted': 1585535014.0009372, 'started': 1585535014.0016294, 'finished': 1585543202.5842342}","{'loss': 78.28097494922142, 'info': 78.28097494922142}",
+"[32, 0, 0]",6.666666666666666,"{'submitted': 1585528232.850914, 'started': 1585528232.879719, 'finished': 1585546046.8910525}","{'loss': 80.82447528774543, 'info': 80.82447528774543}",
+"[30, 0, 0]",6.666666666666666,"{'submitted': 1585523442.6636066, 'started': 1585523442.6641593, 'finished': 1585546879.2965665}","{'loss': 98.98107616104312, 'info': 98.98107616104312}",
+"[32, 0, 1]",6.666666666666666,"{'submitted': 1585528824.8576398, 'started': 1585528824.858432, 'finished': 1585546889.137107}","{'loss': 56.908259986459036, 'info': 56.908259986459036}",
+"[30, 0, 2]",6.666666666666666,"{'submitted': 1585525843.381273, 'started': 1585525843.3819642, 'finished': 1585547045.275266}","{'loss': 149.8276125095347, 'info': 149.8276125095347}",
+"[37, 0, 1]",20.0,"{'submitted': 1585542510.6576293, 'started': 1585542510.6637306, 'finished': 1585547177.686227}","{'loss': 56.594786729857816, 'info': 56.594786729857816}",
+"[36, 0, 1]",6.666666666666666,"{'submitted': 1585539316.4592025, 'started': 1585539316.4604464, 'finished': 1585547775.0787344}","{'loss': 54.60477318889641, 'info': 54.60477318889641}",
+"[33, 0, 0]",20.0,"{'submitted': 1585531093.3927162, 'started': 1585531093.393613, 'finished': 1585548846.8941383}","{'loss': 93.20396324681374, 'info': 93.20396324681374}",
+"[35, 0, 0]",20.0,"{'submitted': 1585535887.669032, 'started': 1585535887.6698682, 'finished': 1585550578.8438737}","{'loss': 124.44448205822611, 'info': 124.44448205822611}",
+"[36, 0, 2]",6.666666666666666,"{'submitted': 1585540771.4628766, 'started': 1585540771.4636867, 'finished': 1585550597.872753}","{'loss': 191.19334295661034, 'info': 191.19334295661034}",
+"[33, 0, 1]",20.0,"{'submitted': 1585534079.9488995, 'started': 1585534079.9495928, 'finished': 1585551199.2348099}","{'loss': 72.64065343433916, 'info': 72.64065343433916}",
+"[38, 0, 1]",6.666666666666666,"{'submitted': 1585546879.5192618, 'started': 1585546879.5208218, 'finished': 1585551775.0357423}","{'loss': 93.72058761271751, 'info': 93.72058761271751}",
+"[26, 0, 2]",20.0,"{'submitted': 1585534635.0005236, 'started': 1585534635.0013154, 'finished': 1585552222.1993349}","{'loss': 67.61949898442789, 'info': 67.61949898442789}",
+"[30, 0, 1]",20.0,"{'submitted': 1585547045.2803829, 'started': 1585547045.2816489, 'finished': 1585552397.5045638}","{'loss': 42.48679756262694, 'info': 42.48679756262694}",
+"[36, 0, 0]",6.666666666666666,"{'submitted': 1585537715.0805175, 'started': 1585537715.0818596, 'finished': 1585555272.2017715}","{'loss': 33.11797562626946, 'info': 33.11797562626946}",
+"[20, 0, 2]",20.0,"{'submitted': 1585533267.520551, 'started': 1585533267.5213876, 'finished': 1585557393.1819906}","{'loss': 54.22761336212372, 'info': 54.22761336212372}",
+"[35, 0, 1]",20.0,"{'submitted': 1585537437.0900524, 'started': 1585537437.090925, 'finished': 1585557766.5478423}","{'loss': 114.06093948370714, 'info': 114.06093948370714}",
+"[28, 0, 0]",20.0,"{'submitted': 1585541990.274264, 'started': 1585541990.2769697, 'finished': 1585558032.19887}","{'loss': 70.7080230196344, 'info': 70.7080230196344}",
+"[40, 0, 2]",6.666666666666666,"{'submitted': 1585551199.4225152, 'started': 1585551199.4230826, 'finished': 1585558428.7373884}","{'loss': 79.72816519972919, 'info': 79.72816519972919}",
+"[37, 0, 0]",20.0,"{'submitted': 1585542019.29477, 'started': 1585542019.2954636, 'finished': 1585558826.9341433}","{'loss': 62.70371939337457, 'info': 62.70371939337457}",
+"[32, 0, 1]",20.0,"{'submitted': 1585546889.1448271, 'started': 1585546889.1459746, 'finished': 1585558847.857739}","{'loss': 60.63744075829385, 'info': 60.63744075829385}",
+"[34, 0, 1]",20.0,"{'submitted': 1585543202.5907187, 'started': 1585543202.593184, 'finished': 1585559464.603834}","{'loss': 51.80467163168584, 'info': 51.80467163168584}",
+"[38, 0, 2]",6.666666666666666,"{'submitted': 1585547177.9890187, 'started': 1585547177.9908323, 'finished': 1585560832.770881}","{'loss': 125.84123222748815, 'info': 125.84123222748815}",
+"[39, 0, 1]",20.0,"{'submitted': 1585548847.0723622, 'started': 1585548847.0734835, 'finished': 1585562462.8089738}","{'loss': 124.30907244414354, 'info': 124.30907244414354}",
+"[38, 0, 0]",6.666666666666666,"{'submitted': 1585546047.0623937, 'started': 1585546047.0635054, 'finished': 1585563926.1769514}","{'loss': 79.13627899102758, 'info': 79.13627899102758}",
+"[40, 0, 0]",6.666666666666666,"{'submitted': 1585550579.0452511, 'started': 1585550579.0471306, 'finished': 1585566539.455991}","{'loss': 64.90538253215978, 'info': 64.90538253215978}",
+"[41, 0, 0]",20.0,"{'submitted': 1585551775.2661319, 'started': 1585551775.28234, 'finished': 1585566990.8976178}","{'loss': 62.31153992636791, 'info': 62.31153992636791}",
+"[40, 0, 1]",6.666666666666666,"{'submitted': 1585550598.1117632, 'started': 1585550598.1132376, 'finished': 1585567982.1242213}","{'loss': 63.29333107650644, 'info': 63.29333107650644}",
+"[39, 0, 0]",20.0,"{'submitted': 1585547775.0861197, 'started': 1585547775.0875783, 'finished': 1585570266.0975678}","{'loss': 77.34394176647339, 'info': 77.34394176647339}",
+"[42, 0, 0]",6.666666666666666,"{'submitted': 1585552397.7392297, 'started': 1585552397.7399404, 'finished': 1585570509.3825026}","{'loss': 27.98730427422767, 'info': 27.98730427422767}",
+"[38, 0, 0]",20.0,"{'submitted': 1585563926.1825504, 'started': 1585563926.1837204, 'finished': 1585571850.8020194}","{'loss': 84.0143982383332, 'info': 84.0143982383332}",
+"[36, 0, 0]",20.0,"{'submitted': 1585555272.2201555, 'started': 1585555272.2212236, 'finished': 1585573246.5564075}","{'loss': 34.12897765741367, 'info': 34.12897765741367}",
+"[22, 0, 0]",20.0,"{'submitted': 1585539524.4414568, 'started': 1585539524.4422803, 'finished': 1585573316.8073509}","{'loss': 58.28397153507285, 'info': 58.28397153507285}",
+"[42, 0, 1]",6.666666666666666,"{'submitted': 1585557393.2232246, 'started': 1585557393.2240558, 'finished': 1585574989.6194806}","{'loss': 134.99966147596479, 'info': 134.99966147596479}",
+"[44, 0, 1]",6.666666666666666,"{'submitted': 1585558848.1267405, 'started': 1585558848.139622, 'finished': 1585575308.0696304}","{'loss': 62.002708192281645, 'info': 62.002708192281645}",
+"[43, 0, 1]",20.0,"{'submitted': 1585558428.8978524, 'started': 1585558428.9035902, 'finished': 1585575437.1051855}","{'loss': 53.62491536899118, 'info': 53.62491536899118}",
+"[48, 0, 0]",6.666666666666666,"{'submitted': 1585573246.8232124, 'started': 1585573246.8243396, 'finished': 1585578250.336309}","{'loss': 59.659952606635066, 'info': 59.659952606635066}",
+"[43, 0, 0]",20.0,"{'submitted': 1585558032.2493215, 'started': 1585558032.250087, 'finished': 1585580546.0844002}","{'loss': 126.51438326208718, 'info': 126.51438326208718}",
+"[44, 0, 2]",6.666666666666666,"{'submitted': 1585559464.6280165, 'started': 1585559464.628843, 'finished': 1585580853.9126785}","{'loss': 179.05907244414354, 'info': 179.05907244414354}",
+"[49, 0, 1]",20.0,"{'submitted': 1585575437.3093302, 'started': 1585575437.3101356, 'finished': 1585581844.176886}","{'loss': 80.00737506887637, 'info': 80.00737506887637}",
+"[44, 0, 0]",6.666666666666666,"{'submitted': 1585558827.1430497, 'started': 1585558827.1438544, 'finished': 1585581979.5637105}","{'loss': 51.09944985188319, 'info': 51.09944985188319}",
+"[45, 0, 1]",20.0,"{'submitted': 1585562463.0523393, 'started': 1585562463.0540907, 'finished': 1585583006.453705}","{'loss': 68.58312518521655, 'info': 68.58312518521655}",
+"[46, 0, 0]",6.666666666666666,"{'submitted': 1585566539.4641097, 'started': 1585566539.4649904, 'finished': 1585583253.5436087}","{'loss': 136.8201438848921, 'info': 136.8201438848921}",
+"[47, 0, 0]",20.0,"{'submitted': 1585570509.5934653, 'started': 1585570509.5945392, 'finished': 1585585734.7871208}","{'loss': 123.98747461069736, 'info': 123.98747461069736}",
+"[40, 0, 1]",20.0,"{'submitted': 1585567982.1298482, 'started': 1585567982.1306245, 'finished': 1585585997.4231324}","{'loss': 63.26794177386595, 'info': 63.26794177386595}",
+"[46, 0, 2]",6.666666666666666,"{'submitted': 1585570266.3835807, 'started': 1585570266.3846328, 'finished': 1585587518.074755}","{'loss': 76.8480027081923, 'info': 76.8480027081923}",
+"[47, 0, 1]",20.0,"{'submitted': 1585571851.11197, 'started': 1585571851.1193535, 'finished': 1585590261.6830657}","{'loss': 62.75666525603047, 'info': 62.75666525603047}",
+"[41, 0, 1]",20.0,"{'submitted': 1585552222.210396, 'started': 1585552222.2112436, 'finished': 1585592539.9062972}","{'loss': 67.74551925765857, 'info': 67.74551925765857}",
+"[45, 0, 0]",20.0,"{'submitted': 1585560832.7783082, 'started': 1585560832.7790556, 'finished': 1585596717.2926304}","{'loss': 79.21619104073164, 'info': 79.21619104073164}",
+"[46, 0, 1]",6.666666666666666,"{'submitted': 1585566990.9159696, 'started': 1585566990.9166703, 'finished': 1585597152.6917484}","{'loss': 106.98087339201084, 'info': 106.98087339201084}",
+"[42, 0, 2]",6.666666666666666,"{'submitted': 1585557766.5741067, 'started': 1585557766.574809, 'finished': 1585597311.363248}","{'loss': 177.2719929961309, 'info': 177.2719929961309}",
+"[52, 0, 2]",6.666666666666666,"{'submitted': 1585585997.6386533, 'started': 1585585997.6398032, 'finished': 1585598001.0058627}","{'loss': 65.86255924170617, 'info': 65.86255924170617}",
+"[44, 0, 0]",20.0,"{'submitted': 1585581979.568664, 'started': 1585581979.5692844, 'finished': 1585598526.940699}","{'loss': 68.93016168627783, 'info': 68.93016168627783}",
+"[49, 0, 0]",20.0,"{'submitted': 1585575308.246455, 'started': 1585575308.2473397, 'finished': 1585599584.013672}","{'loss': 180.32244414353417, 'info': 180.32244414353417}",
+"[52, 0, 0]",6.666666666666666,"{'submitted': 1585583253.8324652, 'started': 1585583253.833221, 'finished': 1585599597.4029043}","{'loss': 50.78097494922139, 'info': 50.78097494922139}",
+"[51, 0, 0]",20.0,"{'submitted': 1585581844.1894681, 'started': 1585581844.1903484, 'finished': 1585600733.8190227}","{'loss': 88.15547463798798, 'info': 88.15547463798798}",
+"[55, 0, 0]",20.0,"{'submitted': 1585598526.96048, 'started': 1585598526.9619691, 'finished': 1585603032.9568548}","{'loss': 132.98679756262695, 'info': 132.98679756262695}",
+"[50, 0, 0]",6.666666666666666,"{'submitted': 1585578250.3455002, 'started': 1585578250.3465168, 'finished': 1585603307.4607708}","{'loss': 130.5154324907913, 'info': 130.5154324907913}",
+"[52, 0, 1]",6.666666666666666,"{'submitted': 1585585734.9743752, 'started': 1585585734.9750795, 'finished': 1585603429.8976293}","{'loss': 54.36425186188218, 'info': 54.36425186188218}",
+"[50, 0, 1]",6.666666666666666,"{'submitted': 1585580546.0978215, 'started': 1585580546.0985897, 'finished': 1585605821.4809263}","{'loss': 63.606132475012714, 'info': 63.606132475012714}",
+"[51, 0, 1]",20.0,"{'submitted': 1585583006.4859617, 'started': 1585583006.4870121, 'finished': 1585605825.8494186}","{'loss': 63.606132475012714, 'info': 63.606132475012714}",
+"[56, 0, 0]",6.666666666666666,"{'submitted': 1585599597.41136, 'started': 1585599597.412526, 'finished': 1585606565.0584736}","{'loss': 116.15583718334534, 'info': 116.15583718334534}",
+"[48, 0, 2]",6.666666666666666,"{'submitted': 1585574989.8610628, 'started': 1585574989.8617306, 'finished': 1585610355.018968}","{'loss': 175.99445222830778, 'info': 175.99445222830778}",
+"[53, 0, 1]",20.0,"{'submitted': 1585590261.694689, 'started': 1585590261.6957731, 'finished': 1585612421.6057744}","{'loss': 163.16543230775744, 'info': 163.16543230775744}",
+"[50, 0, 2]",6.666666666666666,"{'submitted': 1585580853.9193285, 'started': 1585580853.920134, 'finished': 1585612435.724934}","{'loss': 153.99844731455994, 'info': 153.99844731455994}",
+"[54, 0, 0]",6.666666666666666,"{'submitted': 1585592540.189396, 'started': 1585592540.1900826, 'finished': 1585613295.6748736}","{'loss': 49.97731888964117, 'info': 49.97731888964117}",
+"[48, 0, 1]",6.666666666666666,"{'submitted': 1585573317.0296497, 'started': 1585573317.0310163, 'finished': 1585613354.6391375}","{'loss': 75.53890489913545, 'info': 75.53890489913545}",
+"[46, 0, 2]",20.0,"{'submitted': 1585597152.7237477, 'started': 1585597152.7243679, 'finished': 1585613457.7726815}","{'loss': 76.85646580907243, 'info': 76.85646580907243}",
+"[54, 0, 2]",6.666666666666666,"{'submitted': 1585598001.2418861, 'started': 1585598001.2434962, 'finished': 1585613921.2185404}","{'loss': 194.56130373891273, 'info': 194.56130373891273}",
+"[56, 0, 2]",6.666666666666666,"{'submitted': 1585603033.161432, 'started': 1585603033.172624, 'finished': 1585614606.519526}","{'loss': 158.06618144888287, 'info': 158.06618144888287}",
+"[42, 0, 0]",20.0,"{'submitted': 1585597311.3701642, 'started': 1585597311.371714, 'finished': 1585614688.0768292}","{'loss': 27.737621667371982, 'info': 27.737621667371982}",
+"[55, 0, 1]",20.0,"{'submitted': 1585599584.028305, 'started': 1585599584.029134, 'finished': 1585617295.4933674}","{'loss': 50.96022342586324, 'info': 50.96022342586324}",
+"[56, 0, 1]",6.666666666666666,"{'submitted': 1585600734.00151, 'started': 1585600734.003646, 'finished': 1585618368.2077954}","{'loss': 37.5565335138795, 'info': 37.5565335138795}",
+"[53, 0, 0]",20.0,"{'submitted': 1585587518.0814917, 'started': 1585587518.0826888, 'finished': 1585619579.9607456}","{'loss': 164.7037914691943, 'info': 164.7037914691943}",
+"[52, 0, 0]",20.0,"{'submitted': 1585603429.9030352, 'started': 1585603429.9038918, 'finished': 1585620212.0740895}","{'loss': 50.78943805010155, 'info': 50.78943805010155}",
+"[59, 0, 0]",20.0,"{'submitted': 1585612421.620183, 'started': 1585612421.6209939, 'finished': 1585620861.0899415}","{'loss': 124.88879485443468, 'info': 124.88879485443468}",
+"[58, 0, 1]",6.666666666666666,"{'submitted': 1585606565.0660539, 'started': 1585606565.0673926, 'finished': 1585621997.2277117}","{'loss': 125.4691943127962, 'info': 125.4691943127962}",
+"[58, 0, 2]",6.666666666666666,"{'submitted': 1585610355.201336, 'started': 1585610355.2023208, 'finished': 1585625755.7278697}","{'loss': 128.61712931618143, 'info': 128.61712931618143}",
+"[57, 0, 1]",20.0,"{'submitted': 1585605821.6786683, 'started': 1585605821.6797466, 'finished': 1585627319.3487074}","{'loss': 66.52031144211237, 'info': 66.52031144211237}",
+"[58, 0, 0]",6.666666666666666,"{'submitted': 1585605825.8642397, 'started': 1585605825.8648381, 'finished': 1585627447.9624789}","{'loss': 168.92027758970886, 'info': 168.92027758970886}",
+"[54, 0, 1]",6.666666666666666,"{'submitted': 1585596717.573795, 'started': 1585596717.5745223, 'finished': 1585627453.6849988}","{'loss': 61.620176032498286, 'info': 61.620176032498286}",
+"[48, 0, 0]",20.0,"{'submitted': 1585613354.6467602, 'started': 1585613354.6479204, 'finished': 1585628595.318581}","{'loss': 58.741706161137444, 'info': 58.741706161137444}",
+"[59, 0, 1]",20.0,"{'submitted': 1585613295.9374483, 'started': 1585613295.9398239, 'finished': 1585630586.905622}","{'loss': 133.6611374407583, 'info': 133.6611374407583}",
+"[63, 0, 1]",20.0,"{'submitted': 1585625755.9826617, 'started': 1585625755.9841235, 'finished': 1585631164.1735826}","{'loss': 63.42005672437878, 'info': 63.42005672437878}",
+"[64, 0, 0]",6.666666666666666,"{'submitted': 1585627319.6572173, 'started': 1585627319.6587367, 'finished': 1585632180.6475983}","{'loss': 41.39844278943805, 'info': 41.39844278943805}",
+"[56, 0, 1]",20.0,"{'submitted': 1585618368.2132347, 'started': 1585618368.2154381, 'finished': 1585635419.620021}","{'loss': 37.43805010155721, 'info': 37.43805010155721}",
+"[57, 0, 0]",20.0,"{'submitted': 1585603307.4822512, 'started': 1585603307.4834313, 'finished': 1585635998.4111922}","{'loss': 163.2862220717671, 'info': 163.2862220717671}",
+"[62, 0, 2]",6.666666666666666,"{'submitted': 1585620861.1213536, 'started': 1585620861.1223302, 'finished': 1585637710.2027237}","{'loss': 147.6784021665538, 'info': 147.6784021665538}",
+"[50, 0, 1]",20.0,"{'submitted': 1585612435.7310176, 'started': 1585612435.7319973, 'finished': 1585638835.6317887}","{'loss': 49.617129316181455, 'info': 49.617129316181455}",
+"[61, 0, 1]",20.0,"{'submitted': 1585617295.5255675, 'started': 1585617295.5269682, 'finished': 1585640013.8428214}","{'loss': 59.72173324306026, 'info': 59.72173324306026}",
+"[64, 0, 2]",6.666666666666666,"{'submitted': 1585630587.111482, 'started': 1585630587.1177626, 'finished': 1585640335.3193731}","{'loss': 52.33480027081923, 'info': 52.33480027081923}",
+"[62, 0, 1]",6.666666666666666,"{'submitted': 1585620212.3251777, 'started': 1585620212.3260264, 'finished': 1585640520.578702}","{'loss': 40.26341628576265, 'info': 40.26341628576265}",
+"[58, 0, 1]",20.0,"{'submitted': 1585627447.96826, 'started': 1585627447.969488, 'finished': 1585642656.570105}","{'loss': 125.49035206499661, 'info': 125.49035206499661}",
+"[64, 0, 1]",6.666666666666666,"{'submitted': 1585628595.53633, 'started': 1585628595.5436668, 'finished': 1585645363.3798718}","{'loss': 50.85595802301963, 'info': 50.85595802301963}",
+"[54, 0, 0]",20.0,"{'submitted': 1585627453.6946664, 'started': 1585627453.6955664, 'finished': 1585646718.0172193}","{'loss': 49.88422477995938, 'info': 49.88422477995938}",
+"[60, 0, 2]",6.666666666666666,"{'submitted': 1585614607.054026, 'started': 1585614607.0549808, 'finished': 1585647300.1827338}","{'loss': 102.94549763033176, 'info': 102.94549763033176}",
+"[66, 0, 2]",6.666666666666666,"{'submitted': 1585637710.4670093, 'started': 1585637710.4686792, 'finished': 1585648230.986827}","{'loss': 33.859851049424506, 'info': 33.859851049424506}",
+"[60, 0, 1]",6.666666666666666,"{'submitted': 1585613921.229091, 'started': 1585613921.2297978, 'finished': 1585649395.6715174}","{'loss': 82.91997287216005, 'info': 82.91997287216005}",
+"[66, 0, 1]",6.666666666666666,"{'submitted': 1585635998.7754097, 'started': 1585635998.7772992, 'finished': 1585650534.4467247}","{'loss': 53.88727149627623, 'info': 53.88727149627623}",
+"[60, 0, 0]",6.666666666666666,"{'submitted': 1585613457.7837875, 'started': 1585613457.7848628, 'finished': 1585651649.2324207}","{'loss': 140.34207853757616, 'info': 140.34207853757616}",
+"[65, 0, 1]",20.0,"{'submitted': 1585632180.877652, 'started': 1585632180.8783925, 'finished': 1585651704.6532848}","{'loss': 48.733243060257266, 'info': 48.733243060257266}",
+"[66, 0, 0]",6.666666666666666,"{'submitted': 1585635419.6428578, 'started': 1585635419.6438534, 'finished': 1585652444.858114}","{'loss': 139.83513879485443, 'info': 139.83513879485443}",
+"[63, 0, 0]",20.0,"{'submitted': 1585621997.2365162, 'started': 1585621997.2380974, 'finished': 1585654154.6717103}","{'loss': 138.41432268465485, 'info': 138.41432268465485}",
+"[68, 0, 1]",6.666666666666666,"{'submitted': 1585640520.5904107, 'started': 1585640520.5909758, 'finished': 1585654855.8608325}","{'loss': 121.66858496953286, 'info': 121.66858496953286}",
+"[69, 0, 0]",20.0,"{'submitted': 1585646718.288486, 'started': 1585646718.289132, 'finished': 1585654994.5238512}","{'loss': 109.24441435341909, 'info': 109.24441435341909}",
+"[67, 0, 1]",20.0,"{'submitted': 1585640014.0378082, 'started': 1585640014.0386035, 'finished': 1585655323.1798053}","{'loss': 116.17569397427218, 'info': 116.17569397427218}",
+"[62, 0, 0]",6.666666666666666,"{'submitted': 1585619580.1493688, 'started': 1585619580.150604, 'finished': 1585656198.7831259}","{'loss': 159.26848908667088, 'info': 159.26848908667088}",
+"[65, 0, 0]",20.0,"{'submitted': 1585631164.1945546, 'started': 1585631164.1974268, 'finished': 1585656402.5108063}","{'loss': 73.59119763013119, 'info': 73.59119763013119}",
+"[61, 0, 0]",20.0,"{'submitted': 1585614688.378018, 'started': 1585614688.3841643, 'finished': 1585656566.6627278}","{'loss': 88.12340551765055, 'info': 88.12340551765055}",
+"[67, 0, 0]",20.0,"{'submitted': 1585638835.9851153, 'started': 1585638835.9949372, 'finished': 1585656917.2621796}","{'loss': 42.1508124576845, 'info': 42.1508124576845}",
+"[66, 0, 2]",20.0,"{'submitted': 1585652444.8699856, 'started': 1585652444.8708942, 'finished': 1585658000.2771878}","{'loss': 33.59749492213947, 'info': 33.59749492213947}",
+"[62, 0, 1]",20.0,"{'submitted': 1585656198.8017402, 'started': 1585656198.8024125, 'finished': 1585661798.467461}","{'loss': 44.22254200702586, 'info': 44.22254200702586}",
+"[64, 0, 0]",20.0,"{'submitted': 1585645363.3915896, 'started': 1585645363.3922613, 'finished': 1585662513.9472}","{'loss': 40.15436696005416, 'info': 40.15436696005416}",
+"[69, 0, 1]",20.0,"{'submitted': 1585647300.1887434, 'started': 1585647300.1897354, 'finished': 1585666047.7305307}","{'loss': 154.81516587677723, 'info': 154.81516587677723}",
+"[70, 0, 0]",6.666666666666666,"{'submitted': 1585648231.0005696, 'started': 1585648231.0143898, 'finished': 1585666784.9644892}","{'loss': 155.90267433987813, 'info': 155.90267433987813}",
+"[68, 0, 2]",6.666666666666666,"{'submitted': 1585642656.8358767, 'started': 1585642656.8393776, 'finished': 1585667302.2087433}","{'loss': 134.47088693297223, 'info': 134.47088693297223}",
+"[68, 0, 0]",6.666666666666666,"{'submitted': 1585640335.6154208, 'started': 1585640335.6179125, 'finished': 1585668591.5269556}","{'loss': 118.29827315541603, 'info': 118.29827315541603}",
+"[71, 0, 0]",20.0,"{'submitted': 1585651704.8926854, 'started': 1585651704.8934774, 'finished': 1585669897.253358}","{'loss': 37.97664184157075, 'info': 37.97664184157075}",
+"[73, 0, 1]",20.0,"{'submitted': 1585656566.6739223, 'started': 1585656566.6751294, 'finished': 1585670162.5997305}","{'loss': 176.1243628950051, 'info': 176.1243628950051}",
+"[74, 0, 1]",6.666666666666666,"{'submitted': 1585658000.29125, 'started': 1585658000.2929144, 'finished': 1585671094.4657595}","{'loss': 189.5937711577522, 'info': 189.5937711577522}",
+"[71, 0, 1]",20.0,"{'submitted': 1585654154.93612, 'started': 1585654154.9397411, 'finished': 1585671525.8291547}","{'loss': 76.14285714285715, 'info': 76.14285714285715}",
+"[72, 0, 2]",6.666666666666666,"{'submitted': 1585655323.4123125, 'started': 1585655323.413388, 'finished': 1585671887.0444846}","{'loss': 61.7610020311442, 'info': 61.7610020311442}",
+"[73, 0, 0]",20.0,"{'submitted': 1585656402.7288728, 'started': 1585656402.7297292, 'finished': 1585672673.2052512}","{'loss': 50.695159106296536, 'info': 50.695159106296536}",
+"[70, 0, 1]",6.666666666666666,"{'submitted': 1585649395.8534572, 'started': 1585649395.854085, 'finished': 1585673837.8860095}","{'loss': 75.33192281651995, 'info': 75.33192281651995}",
+"[76, 0, 1]",6.666666666666666,"{'submitted': 1585667302.4434993, 'started': 1585667302.4442255, 'finished': 1585674598.8497841}","{'loss': 44.08970886932971, 'info': 44.08970886932971}",
+"[74, 0, 0]",6.666666666666666,"{'submitted': 1585656917.5957592, 'started': 1585656917.5968523, 'finished': 1585674750.783473}","{'loss': 43.98815165876778, 'info': 43.98815165876778}",
+"[74, 0, 2]",6.666666666666666,"{'submitted': 1585661798.680465, 'started': 1585661798.681699, 'finished': 1585678729.660605}","{'loss': 50.67467840216655, 'info': 50.67467840216655}",
+"[72, 0, 0]",6.666666666666666,"{'submitted': 1585654855.8832362, 'started': 1585654855.8842251, 'finished': 1585682732.3707278}","{'loss': 97.4113067027759, 'info': 97.4113067027759}",
+"[78, 0, 1]",6.666666666666666,"{'submitted': 1585671887.2367446, 'started': 1585671887.2401822, 'finished': 1585684244.9641147}","{'loss': 60.37186865267435, 'info': 60.37186865267435}",
+"[60, 0, 1]",20.0,"{'submitted': 1585651649.2367935, 'started': 1585651649.2375607, 'finished': 1585684502.3534834}","{'loss': 78.78925059342151, 'info': 78.78925059342151}",
+"[72, 0, 1]",6.666666666666666,"{'submitted': 1585654994.7329643, 'started': 1585654994.7336464, 'finished': 1585685557.8676882}","{'loss': 107.5752651771609, 'info': 107.5752651771609}",
+"[76, 0, 2]",6.666666666666666,"{'submitted': 1585669897.4293633, 'started': 1585669897.4300523, 'finished': 1585685625.6455357}","{'loss': 47.01015572105621, 'info': 47.01015572105621}",
+"[76, 0, 0]",6.666666666666666,"{'submitted': 1585666785.1391296, 'started': 1585666785.1400707, 'finished': 1585686304.0873275}","{'loss': 34.022004062288424, 'info': 34.022004062288424}",
+"[78, 0, 2]",6.666666666666666,"{'submitted': 1585672673.442493, 'started': 1585672673.4429574, 'finished': 1585686631.2043262}","{'loss': 70.34715639810426, 'info': 70.34715639810426}",
+"[75, 0, 1]",20.0,"{'submitted': 1585666047.8873956, 'started': 1585666047.890858, 'finished': 1585687308.1154199}","{'loss': 108.63435302093045, 'info': 108.63435302093045}",
+"[78, 0, 0]",6.666666666666666,"{'submitted': 1585671526.0552082, 'started': 1585671526.0567787, 'finished': 1585688161.8518434}","{'loss': 68.58463100880164, 'info': 68.58463100880164}",
+"[75, 0, 0]",20.0,"{'submitted': 1585662514.2422578, 'started': 1585662514.2440157, 'finished': 1585688498.0867677}","{'loss': 115.86899119837507, 'info': 115.86899119837507}",
+"[72, 0, 2]",20.0,"{'submitted': 1585685557.8948526, 'started': 1585685557.8959372, 'finished': 1585689796.724013}","{'loss': 49.97461069735952, 'info': 49.97461069735952}",
+"[77, 0, 1]",20.0,"{'submitted': 1585671094.719066, 'started': 1585671094.7208698, 'finished': 1585690354.6280034}","{'loss': 86.97020988490182, 'info': 86.97020988490182}",
+"[70, 0, 2]",6.666666666666666,"{'submitted': 1585650534.452791, 'started': 1585650534.453579, 'finished': 1585691010.132181}","{'loss': 99.3009873299716, 'info': 99.3009873299716}",
+"[79, 0, 1]",20.0,"{'submitted': 1585674599.3886368, 'started': 1585674599.3896024, 'finished': 1585691186.0499744}","{'loss': 39.21191604603928, 'info': 39.21191604603928}",
+"[82, 0, 1]",6.666666666666666,"{'submitted': 1585687308.3734562, 'started': 1585687308.3744516, 'finished': 1585691988.0510745}","{'loss': 45.833107650643186, 'info': 45.833107650643186}",
+"[79, 0, 0]",20.0,"{'submitted': 1585673838.1526792, 'started': 1585673838.1539466, 'finished': 1585692151.965429}","{'loss': 48.252369668246445, 'info': 48.252369668246445}",
+"[68, 0, 0]",20.0,"{'submitted': 1585668591.5537853, 'started': 1585668591.5545354, 'finished': 1585692319.0720546}","{'loss': 73.5610127868575, 'info': 73.5610127868575}",
+"[74, 0, 0]",20.0,"{'submitted': 1585678729.6808684, 'started': 1585678729.691133, 'finished': 1585694726.4850502}","{'loss': 43.996614759647926, 'info': 43.996614759647926}",
+"[81, 0, 1]",20.0,"{'submitted': 1585685625.6514485, 'started': 1585685625.652398, 'finished': 1585695565.1684613}","{'loss': 183.9926985609373, 'info': 183.9926985609373}",
+"[77, 0, 0]",20.0,"{'submitted': 1585670162.615906, 'started': 1585670162.6166782, 'finished': 1585695585.777504}","{'loss': 137.07413676371021, 'info': 137.07413676371021}",
+"[83, 0, 0]",20.0,"{'submitted': 1585689796.7419431, 'started': 1585689796.7431927, 'finished': 1585696104.0037956}","{'loss': 127.6915650406504, 'info': 127.6915650406504}",
+"[80, 0, 0]",6.666666666666666,"{'submitted': 1585674750.7931356, 'started': 1585674750.7941043, 'finished': 1585696571.1116223}","{'loss': 83.79322019552245, 'info': 83.79322019552245}",
+"[82, 0, 2]",6.666666666666666,"{'submitted': 1585688498.1076345, 'started': 1585688498.1082497, 'finished': 1585696606.818732}","{'loss': 157.8899470899471, 'info': 157.8899470899471}",
+"[85, 0, 0]",20.0,"{'submitted': 1585692319.3418145, 'started': 1585692319.3427112, 'finished': 1585697447.6855648}",,"Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2130, in _get_list_axis
+    return self.obj.take(key, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/generic.py"", line 3604, in take
+    indices, axis=self._get_block_manager_axis(axis), verify=True
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/internals/managers.py"", line 1389, in take
+    indexer = maybe_convert_indices(indexer, n)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexers.py"", line 201, in maybe_convert_indices
+    raise IndexError(""indices are out-of-bounds"")
+IndexError: indices are out-of-bounds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/HpBandSter/hpbandster/core/worker.py"", line 206, in start_computation
+    result = {'result': self.compute(*args, config_id=id, **kwargs),
+  File ""/home/ubuntu/ksc_calibration/BEAM_Optimizer/BeamWorker.py"", line 138, in compute
+    df1 = pd.read_csv(latest_subdir+""/referenceRealizedModeChoice.csv"").iloc[[0, 3]].drop(['iterations'], axis=1)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 1424, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2148, in _getitem_axis
+    return self._get_list_axis(key, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2133, in _get_list_axis
+    raise IndexError(""positional indexers are out-of-bounds"")
+IndexError: positional indexers are out-of-bounds
+"
+"[80, 0, 1]",6.666666666666666,"{'submitted': 1585682732.6355138, 'started': 1585682732.6366415, 'finished': 1585698718.5224633}","{'loss': 50.75440081245769, 'info': 50.75440081245769}",
+"[76, 0, 0]",20.0,"{'submitted': 1585686304.0923102, 'started': 1585686304.0931158, 'finished': 1585704061.7493422}","{'loss': 50.313526324699495, 'info': 50.313526324699495}",
+"[80, 0, 2]",6.666666666666666,"{'submitted': 1585684245.2772236, 'started': 1585684245.2784245, 'finished': 1585704743.608906}","{'loss': 54.953349434346016, 'info': 54.953349434346016}",
+"[78, 0, 1]",20.0,"{'submitted': 1585688161.855372, 'started': 1585688161.8562067, 'finished': 1585705582.463377}","{'loss': 59.098171970209876, 'info': 59.098171970209876}",
+"[81, 0, 0]",20.0,"{'submitted': 1585684502.3832817, 'started': 1585684502.3842711, 'finished': 1585706791.8876786}","{'loss': 62.93805010155721, 'info': 62.93805010155721}",
+"[84, 0, 1]",6.666666666666666,"{'submitted': 1585691988.315537, 'started': 1585691988.3162568, 'finished': 1585707362.9625}","{'loss': 40.41790792146243, 'info': 40.41790792146243}",
+"[86, 0, 2]",6.666666666666666,"{'submitted': 1585696104.2559004, 'started': 1585696104.2576208, 'finished': 1585707869.8506632}","{'loss': 29.564319566689246, 'info': 29.564319566689246}",
+"[83, 0, 1]",20.0,"{'submitted': 1585690354.9062676, 'started': 1585690354.9068465, 'finished': 1585708744.6707866}","{'loss': 42.60088016249155, 'info': 42.60088016249155}",
+"[86, 0, 0]",6.666666666666666,"{'submitted': 1585695565.2031367, 'started': 1585695565.2046545, 'finished': 1585709795.4389622}","{'loss': 79.88896411645227, 'info': 79.88896411645227}",
+"[84, 0, 0]",6.666666666666666,"{'submitted': 1585691186.2679918, 'started': 1585691186.2688277, 'finished': 1585709896.6674984}","{'loss': 40.32869175096287, 'info': 40.32869175096287}",
+"[84, 0, 2]",6.666666666666666,"{'submitted': 1585692152.179513, 'started': 1585692152.1801038, 'finished': 1585710719.847845}","{'loss': 45.90690589031824, 'info': 45.90690589031824}",
+"[87, 0, 0]",20.0,"{'submitted': 1585696571.4808946, 'started': 1585696571.4819355, 'finished': 1585711905.2650485}","{'loss': 52.98171970209886, 'info': 52.98171970209886}",
+"[70, 0, 1]",20.0,"{'submitted': 1585691010.139219, 'started': 1585691010.139974, 'finished': 1585713455.5772731}","{'loss': 71.33192281651998, 'info': 71.33192281651998}",
+"[88, 0, 1]",6.666666666666666,"{'submitted': 1585698718.806855, 'started': 1585698718.8075166, 'finished': 1585713891.555625}","{'loss': 40.83987813134732, 'info': 40.83987813134732}",
+"[90, 0, 1]",6.666666666666666,"{'submitted': 1585707870.118716, 'started': 1585707870.1202862, 'finished': 1585714442.070407}","{'loss': 51.99847664184157, 'info': 51.99847664184157}",
+"[85, 0, 1]",20.0,"{'submitted': 1585694726.5090566, 'started': 1585694726.5100298, 'finished': 1585715905.2874053}","{'loss': 51.662475125957926, 'info': 51.662475125957926}",
+"[82, 0, 0]",6.666666666666666,"{'submitted': 1585686631.2084038, 'started': 1585686631.209043, 'finished': 1585719593.3140109}","{'loss': 48.16941973739941, 'info': 48.16941973739941}",
+"[80, 0, 1]",20.0,"{'submitted': 1585704743.6219227, 'started': 1585704743.6228344, 'finished': 1585719637.60284}","{'loss': 55.941096817874055, 'info': 55.941096817874055}",
+"[86, 0, 1]",6.666666666666666,"{'submitted': 1585695585.7892442, 'started': 1585695585.7910686, 'finished': 1585721005.580782}",,"Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2130, in _get_list_axis
+    return self.obj.take(key, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/generic.py"", line 3604, in take
+    indices, axis=self._get_block_manager_axis(axis), verify=True
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/internals/managers.py"", line 1389, in take
+    indexer = maybe_convert_indices(indexer, n)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexers.py"", line 201, in maybe_convert_indices
+    raise IndexError(""indices are out-of-bounds"")
+IndexError: indices are out-of-bounds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/HpBandSter/hpbandster/core/worker.py"", line 206, in start_computation
+    result = {'result': self.compute(*args, config_id=id, **kwargs),
+  File ""/home/ubuntu/ksc_calibration/BEAM_Optimizer/BeamWorker.py"", line 138, in compute
+    df1 = pd.read_csv(latest_subdir+""/referenceRealizedModeChoice.csv"").iloc[[0, 3]].drop(['iterations'], axis=1)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 1424, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2148, in _getitem_axis
+    return self._get_list_axis(key, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2133, in _get_list_axis
+    raise IndexError(""positional indexers are out-of-bounds"")
+IndexError: positional indexers are out-of-bounds
+"
+"[90, 0, 0]",6.666666666666666,"{'submitted': 1585707362.97078, 'started': 1585707362.971967, 'finished': 1585722385.915517}","{'loss': 127.70734597156398, 'info': 127.70734597156398}",
+"[88, 0, 2]",6.666666666666666,"{'submitted': 1585704061.9800198, 'started': 1585704061.9808393, 'finished': 1585722826.998743}","{'loss': 51.4583615436696, 'info': 51.4583615436696}",
+"[89, 0, 1]",20.0,"{'submitted': 1585706792.0965123, 'started': 1585706792.0973806, 'finished': 1585723570.7677}","{'loss': 131.40315687021285, 'info': 131.40315687021285}",
+"[88, 0, 0]",6.666666666666666,"{'submitted': 1585697447.9049537, 'started': 1585697447.9056075, 'finished': 1585723950.3665073}","{'loss': 67.48559096102576, 'info': 67.48559096102576}",
+"[87, 0, 1]",20.0,"{'submitted': 1585696606.8247454, 'started': 1585696606.8255155, 'finished': 1585725147.4869084}","{'loss': 119.6662153012864, 'info': 119.6662153012864}",
+"[94, 0, 0]",6.666666666666666,"{'submitted': 1585719637.7679875, 'started': 1585719637.7690325, 'finished': 1585725173.3536777}","{'loss': 51.11983750846309, 'info': 51.11983750846309}",
+"[82, 0, 1]",20.0,"{'submitted': 1585719593.3209553, 'started': 1585719593.3216965, 'finished': 1585726342.8040395}","{'loss': 45.55382532159784, 'info': 45.55382532159784}",
+"[91, 0, 1]",20.0,"{'submitted': 1585709896.8979783, 'started': 1585709896.8990529, 'finished': 1585727286.3095407}","{'loss': 39.27420446851726, 'info': 39.27420446851726}",
+"[91, 0, 0]",20.0,"{'submitted': 1585709795.7097032, 'started': 1585709795.7121656, 'finished': 1585727766.8445146}","{'loss': 45.99576844955992, 'info': 45.99576844955992}",
+"[84, 0, 0]",20.0,"{'submitted': 1585710719.8525088, 'started': 1585710719.8532138, 'finished': 1585728196.5993545}","{'loss': 38.77867118070251, 'info': 38.77867118070251}",
+"[93, 0, 0]",20.0,"{'submitted': 1585714442.3316147, 'started': 1585714442.3326244, 'finished': 1585729706.9954839}","{'loss': 51.892687880839546, 'info': 51.892687880839546}",
+"[90, 0, 2]",6.666666666666666,"{'submitted': 1585708744.996963, 'started': 1585708745.0084677, 'finished': 1585729850.39113}","{'loss': 60.77801769761632, 'info': 60.77801769761632}",
+"[92, 0, 1]",6.666666666666666,"{'submitted': 1585713455.80157, 'started': 1585713455.8078976, 'finished': 1585729952.3750012}","{'loss': 40.10291130670277, 'info': 40.10291130670277}",
+"[92, 0, 0]",6.666666666666666,"{'submitted': 1585711905.5024326, 'started': 1585711905.5059607, 'finished': 1585730314.6842182}","{'loss': 67.01904358865849, 'info': 67.01904358865849}",
+"[89, 0, 0]",20.0,"{'submitted': 1585705582.69203, 'started': 1585705582.6927276, 'finished': 1585731711.5368452}","{'loss': 74.49862410566868, 'info': 74.49862410566868}",
+"[95, 0, 0]",20.0,"{'submitted': 1585723571.0345044, 'started': 1585723571.0353427, 'finished': 1585733722.1692004}","{'loss': 71.25389302640488, 'info': 71.25389302640488}",
+"[93, 0, 1]",20.0,"{'submitted': 1585715905.3079073, 'started': 1585715905.3086293, 'finished': 1585733976.6616774}","{'loss': 81.92315504400813, 'info': 81.92315504400813}",
+"[99, 0, 0]",20.0,"{'submitted': 1585731711.7382543, 'started': 1585731711.7391362, 'finished': 1585736259.10067}","{'loss': 32.50914014895058, 'info': 32.50914014895058}",
+"[86, 0, 2]",20.0,"{'submitted': 1585721005.5859692, 'started': 1585721005.5869215, 'finished': 1585738463.0547771}","{'loss': 29.640487474610694, 'info': 29.640487474610694}",
+"[88, 0, 1]",20.0,"{'submitted': 1585723950.3801928, 'started': 1585723950.3807905, 'finished': 1585739488.4268875}","{'loss': 40.84834123222748, 'info': 40.84834123222748}",
+"[92, 0, 2]",6.666666666666666,"{'submitted': 1585713891.565034, 'started': 1585713891.5656855, 'finished': 1585743255.8673074}","{'loss': 48.62576167907921, 'info': 48.62576167907921}",
+"[95, 0, 1]",20.0,"{'submitted': 1585725147.736389, 'started': 1585725147.7372973, 'finished': 1585743392.144796}","{'loss': 136.31144211238995, 'info': 136.31144211238995}",
+"[98, 0, 1]",6.666666666666666,"{'submitted': 1585729952.594865, 'started': 1585729952.5956008, 'finished': 1585744129.4501164}","{'loss': 30.3175355450237, 'info': 30.3175355450237}",
+"[97, 0, 1]",20.0,"{'submitted': 1585728196.9590862, 'started': 1585728196.9660833, 'finished': 1585744582.9666853}","{'loss': 48.02505077860527, 'info': 48.02505077860527}",
+"[96, 0, 1]",6.666666666666666,"{'submitted': 1585726342.8183234, 'started': 1585726342.8189402, 'finished': 1585745679.1380227}","{'loss': 63.43268416596105, 'info': 63.43268416596105}",
+"[96, 0, 2]",6.666666666666666,"{'submitted': 1585727286.504509, 'started': 1585727286.5056446, 'finished': 1585746585.650547}","{'loss': 39.7156883490626, 'info': 39.7156883490626}",
+"[98, 0, 2]",6.666666666666666,"{'submitted': 1585730314.6936586, 'started': 1585730314.6945453, 'finished': 1585747069.66348}","{'loss': 150.78774542992554, 'info': 150.78774542992554}",
+"[98, 0, 0]",6.666666666666666,"{'submitted': 1585729707.0185993, 'started': 1585729707.0192156, 'finished': 1585747689.930479}","{'loss': 140.854942450914, 'info': 140.854942450914}",
+"[90, 0, 1]",20.0,"{'submitted': 1585729850.395388, 'started': 1585729850.3959582, 'finished': 1585748363.91526}","{'loss': 49.99999999999999, 'info': 49.99999999999999}",
+"[99, 0, 1]",20.0,"{'submitted': 1585733722.1833956, 'started': 1585733722.1841497, 'finished': 1585751100.2407813}","{'loss': 89.76018291133882, 'info': 89.76018291133882}",
+"[100, 0, 0]",6.666666666666666,"{'submitted': 1585733976.8774211, 'started': 1585733976.877989, 'finished': 1585753470.9790723}","{'loss': 61.70531482735274, 'info': 61.70531482735274}",
+"[100, 0, 1]",6.666666666666666,"{'submitted': 1585736259.5139804, 'started': 1585736259.52757, 'finished': 1585753551.6055918}","{'loss': 29.699729180771833, 'info': 29.699729180771833}",
+"[94, 0, 1]",6.666666666666666,"{'submitted': 1585722385.9215112, 'started': 1585722385.9225729, 'finished': 1585755057.7230885}","{'loss': 43.25472084516191, 'info': 43.25472084516191}",
+"[96, 0, 0]",6.666666666666666,"{'submitted': 1585725173.5507727, 'started': 1585725173.551578, 'finished': 1585755501.3184645}","{'loss': 65.12858271270593, 'info': 65.12858271270593}",
+"[100, 0, 2]",6.666666666666666,"{'submitted': 1585738463.2936907, 'started': 1585738463.2945416, 'finished': 1585756041.0378985}","{'loss': 45.149966147596466, 'info': 45.149966147596466}",
+"[102, 0, 1]",6.666666666666666,"{'submitted': 1585744583.2279854, 'started': 1585744583.2300477, 'finished': 1585756194.6110437}","{'loss': 46.687880839539616, 'info': 46.687880839539616}",
+"[94, 0, 2]",6.666666666666666,"{'submitted': 1585722827.0052686, 'started': 1585722827.0060694, 'finished': 1585756270.127113}","{'loss': 56.3926453143535, 'info': 56.3926453143535}",
+"[101, 0, 0]",20.0,"{'submitted': 1585739488.6887655, 'started': 1585739488.690735, 'finished': 1585757619.0452392}",,"Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2130, in _get_list_axis
+    return self.obj.take(key, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/generic.py"", line 3604, in take
+    indices, axis=self._get_block_manager_axis(axis), verify=True
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/internals/managers.py"", line 1389, in take
+    indexer = maybe_convert_indices(indexer, n)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexers.py"", line 201, in maybe_convert_indices
+    raise IndexError(""indices are out-of-bounds"")
+IndexError: indices are out-of-bounds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""/home/ubuntu/ksc_calibration/HpBandSter/hpbandster/core/worker.py"", line 206, in start_computation
+    result = {'result': self.compute(*args, config_id=id, **kwargs),
+  File ""/home/ubuntu/ksc_calibration/BEAM_Optimizer/BeamWorker.py"", line 138, in compute
+    df1 = pd.read_csv(latest_subdir+""/referenceRealizedModeChoice.csv"").iloc[[0, 3]].drop(['iterations'], axis=1)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 1424, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2148, in _getitem_axis
+    return self._get_list_axis(key, axis=axis)
+  File ""/home/ubuntu/ksc_calibration/POST_PROCESSING/PY_CONDA_ENV/ENTER/envs/beamenv/lib/python3.7/site-packages/pandas/core/indexing.py"", line 2133, in _get_list_axis
+    raise IndexError(""positional indexers are out-of-bounds"")
+IndexError: positional indexers are out-of-bounds
+"
+"[101, 0, 1]",20.0,"{'submitted': 1585743392.380258, 'started': 1585743392.381916, 'finished': 1585758974.4676754}","{'loss': 42.06398104265403, 'info': 42.06398104265403}",
+"[92, 0, 1]",20.0,"{'submitted': 1585743255.8725128, 'started': 1585743255.8739126, 'finished': 1585759766.254915}","{'loss': 40.280636425186195, 'info': 40.280636425186195}",
+"[103, 0, 1]",20.0,"{'submitted': 1585747069.6701455, 'started': 1585747069.6717482, 'finished': 1585759857.8265076}","{'loss': 124.20751523358159, 'info': 124.20751523358159}",
+"[102, 0, 0]",6.666666666666666,"{'submitted': 1585744129.6786118, 'started': 1585744129.6802332, 'finished': 1585760028.0990636}","{'loss': 33.50778605280975, 'info': 33.50778605280975}",
+"[97, 0, 0]",20.0,"{'submitted': 1585727766.8711946, 'started': 1585727766.8718936, 'finished': 1585761375.9260411}","{'loss': 165.8493930786949, 'info': 165.8493930786949}",
+"[103, 0, 0]",20.0,"{'submitted': 1585746585.8217978, 'started': 1585746585.8229294, 'finished': 1585762596.21111}","{'loss': 31.143195666892364, 'info': 31.143195666892364}",
+"[98, 0, 1]",20.0,"{'submitted': 1585747689.949906, 'started': 1585747689.9514678, 'finished': 1585763165.0598445}","{'loss': 30.283683141503047, 'info': 30.283683141503047}",
+"[104, 0, 0]",6.666666666666666,"{'submitted': 1585748364.0977755, 'started': 1585748364.098497, 'finished': 1585764287.9318016}","{'loss': 38.98849018280298, 'info': 38.98849018280298}",
+"[104, 0, 1]",6.666666666666666,"{'submitted': 1585751100.4874532, 'started': 1585751100.4880443, 'finished': 1585766756.021092}","{'loss': 30.25999746096229, 'info': 30.25999746096229}",
+"[102, 0, 2]",6.666666666666666,"{'submitted': 1585745679.3005767, 'started': 1585745679.3015983, 'finished': 1585767612.0637379}","{'loss': 60.872714962762345, 'info': 60.872714962762345}",
+"[104, 0, 2]",6.666666666666666,"{'submitted': 1585753470.9872704, 'started': 1585753470.9881654, 'finished': 1585769560.9298286}","{'loss': 143.95345294515914, 'info': 143.95345294515914}",
+"[105, 0, 0]",20.0,"{'submitted': 1585753551.84875, 'started': 1585753551.850028, 'finished': 1585770640.223565}","{'loss': 25.869837508463096, 'info': 25.869837508463096}",
+"[100, 0, 1]",20.0,"{'submitted': 1585756041.0434654, 'started': 1585756041.0442264, 'finished': 1585771280.593337}","{'loss': 29.729350033852402, 'info': 29.729350033852402}",
+"[106, 0, 0]",6.666666666666666,"{'submitted': 1585756194.977833, 'started': 1585756194.9940236, 'finished': 1585772150.936528}","{'loss': 31.996276235612726, 'info': 31.996276235612726}",
+"[96, 0, 2]",20.0,"{'submitted': 1585755501.322135, 'started': 1585755501.322809, 'finished': 1585772795.930583}","{'loss': 39.78940240392754, 'info': 39.78940240392754}",
+"[105, 0, 1]",20.0,"{'submitted': 1585755057.9018092, 'started': 1585755057.902486, 'finished': 1585774259.4473646}","{'loss': 34.28909952606634, 'info': 34.28909952606634}",
+"[106, 0, 2]",6.666666666666666,"{'submitted': 1585758974.7337503, 'started': 1585758974.7351296, 'finished': 1585775423.704431}","{'loss': 44.893703452945154, 'info': 44.893703452945154}",
+"[107, 0, 1]",6.666666666666666,"{'submitted': 1585761376.1333158, 'started': 1585761376.133934, 'finished': 1585775539.0324302}","{'loss': 46.20548408937035, 'info': 46.20548408937035}",
+"[107, 0, 0]",6.666666666666666,"{'submitted': 1585760028.2943227, 'started': 1585760028.2951696, 'finished': 1585777172.038386}","{'loss': 80.46343940419771, 'info': 80.46343940419771}",

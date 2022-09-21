@@ -1,0 +1,6 @@
+[submodule "BOHB"]
+	path = BOHB
+	url = https://github.com/automl/HpBandSter.git
+[submodule "beam"]
+	path = beam
+	url = https://github.com/LBNL-UCB-STI/beam.git
